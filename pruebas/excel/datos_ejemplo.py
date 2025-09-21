@@ -6,7 +6,6 @@ class IncluyeAlumno:
         self.edad = edad
         self.ciudad = ciudad
  
-
         # 1. Abrir el archivo Excel existente
         self.archivo = "datos_ejemplo.xlsx"
         self.wb = load_workbook(self.archivo)
@@ -23,4 +22,4 @@ class IncluyeAlumno:
         # 5. Guardar cambios
         self.wb.save(self.archivo)
 
-        print("✅ Nuevas filas añadidas a", archivo)
+        print("Nuevas filas añadidas a", self.archivo)

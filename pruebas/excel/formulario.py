@@ -25,4 +25,4 @@ class formulario(QWidget, Ui_formulario):
     def borrar(self):
         self.txt_nombre.clear()
         self.txt_edad.clear()
-        self.txt_edad_2.clear()
+       
