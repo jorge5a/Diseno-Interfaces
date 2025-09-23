@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>467</width>
+    <height>44</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QPushButton" name="btn_menos">
+     <property name="text">
+      <string>Menos</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>:/newPrefix/minus.png</normaloff>:/newPrefix/minus.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSpinBox" name="txt_resultado"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_mas">
+     <property name="text">
+      <string>Mas</string>
+     </property>
+     <property name="icon">
+      <iconset theme="QIcon::ThemeIcon::EditCopy"/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
