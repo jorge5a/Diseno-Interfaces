@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>695</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Obtener contenido</string>
+  </property>
+  <widget class="QTextBrowser" name="txt_output">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>61</y>
+     <width>651</width>
+     <height>221</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_obtener">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>10</y>
+     <width>94</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Obtener</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_input">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>501</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>https://jsonplaceholder.typicode.com/todos/1</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

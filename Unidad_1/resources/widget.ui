@@ -20,8 +20,8 @@
       <string>Menos</string>
      </property>
      <property name="icon">
-      <iconset>
-       <normaloff>:/newPrefix/minus.png</normaloff>:/newPrefix/minus.png</iconset>
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/minus.png</normaloff>:/images/minus.png</iconset>
      </property>
     </widget>
    </item>
@@ -34,7 +34,8 @@
       <string>Mas</string>
      </property>
      <property name="icon">
-      <iconset theme="QIcon::ThemeIcon::EditCopy"/>
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/plus.png</normaloff>:/images/plus.png</iconset>
      </property>
     </widget>
    </item>

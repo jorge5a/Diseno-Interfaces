@@ -29,7 +29,7 @@ class Ui_Widget(object):
         self.btn_menos = QPushButton(Widget)
         self.btn_menos.setObjectName(u"btn_menos")
         icon = QIcon()
-        icon.addFile(u":/newPrefix/minus.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        icon.addFile(u":/images/minus.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         self.btn_menos.setIcon(icon)
 
         self.horizontalLayout.addWidget(self.btn_menos)
@@ -41,7 +41,8 @@ class Ui_Widget(object):
 
         self.btn_mas = QPushButton(Widget)
         self.btn_mas.setObjectName(u"btn_mas")
-        icon1 = QIcon(QIcon.fromTheme(QIcon.ThemeIcon.EditCopy))
+        icon1 = QIcon()
+        icon1.addFile(u":/images/plus.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         self.btn_mas.setIcon(icon1)
 
         self.horizontalLayout.addWidget(self.btn_mas)
